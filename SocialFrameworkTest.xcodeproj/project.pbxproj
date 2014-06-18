@@ -19,6 +19,12 @@
 		31C1339019508B830063F177 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C1337819508B830063F177 /* UIKit.framework */; };
 		31C1339819508B830063F177 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31C1339619508B830063F177 /* InfoPlist.strings */; };
 		31C1339A19508B830063F177 /* SocialFrameworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1339919508B830063F177 /* SocialFrameworkTestTests.m */; };
+		31C133A419508E720063F177 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C133A319508E720063F177 /* Social.framework */; };
+		31C133A819508EED0063F177 /* SFTPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C133A619508EED0063F177 /* SFTPostViewController.m */; };
+		31C133A919508EED0063F177 /* SFTPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C133A719508EED0063F177 /* SFTPostViewController.xib */; };
+		31C133AD19509F7D0063F177 /* SFTActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C133AB19509F7D0063F177 /* SFTActivityViewController.m */; };
+		31C133AE19509F7D0063F177 /* SFTActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C133AC19509F7D0063F177 /* SFTActivityViewController.xib */; };
+		31C133B01950A6ED0063F177 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C133AF1950A6ED0063F177 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +46,22 @@
 		31C1337E19508B830063F177 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31C1338019508B830063F177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31C1338219508B830063F177 /* SocialFrameworkTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocialFrameworkTest-Prefix.pch"; sourceTree = "<group>"; };
-		31C1338319508B830063F177 /* SFTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFTAppDelegate.h; sourceTree = "<group>"; };
-		31C1338419508B830063F177 /* SFTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFTAppDelegate.m; sourceTree = "<group>"; };
+		31C1338319508B830063F177 /* SFTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SFTAppDelegate.h; path = SocialFrameworkTest/SFTAppDelegate.h; sourceTree = "<group>"; };
+		31C1338419508B830063F177 /* SFTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SFTAppDelegate.m; path = SocialFrameworkTest/SFTAppDelegate.m; sourceTree = "<group>"; };
 		31C1338619508B830063F177 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		31C1338C19508B830063F177 /* SocialFrameworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialFrameworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C1338D19508B830063F177 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		31C1339519508B830063F177 /* SocialFrameworkTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialFrameworkTestTests-Info.plist"; sourceTree = "<group>"; };
 		31C1339719508B830063F177 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31C1339919508B830063F177 /* SocialFrameworkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialFrameworkTestTests.m; sourceTree = "<group>"; };
+		31C133A319508E720063F177 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		31C133A519508EED0063F177 /* SFTPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFTPostViewController.h; path = SocialFrameworkTest/SFTPostViewController.h; sourceTree = "<group>"; };
+		31C133A619508EED0063F177 /* SFTPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFTPostViewController.m; path = SocialFrameworkTest/SFTPostViewController.m; sourceTree = "<group>"; };
+		31C133A719508EED0063F177 /* SFTPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SFTPostViewController.xib; path = SocialFrameworkTest/SFTPostViewController.xib; sourceTree = "<group>"; };
+		31C133AA19509F7C0063F177 /* SFTActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTActivityViewController.h; sourceTree = "<group>"; };
+		31C133AB19509F7D0063F177 /* SFTActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTActivityViewController.m; sourceTree = "<group>"; };
+		31C133AC19509F7D0063F177 /* SFTActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFTActivityViewController.xib; sourceTree = "<group>"; };
+		31C133AF1950A6ED0063F177 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C133B01950A6ED0063F177 /* MessageUI.framework in Frameworks */,
+				31C133A419508E720063F177 /* Social.framework in Frameworks */,
 				31C1337719508B830063F177 /* CoreGraphics.framework in Frameworks */,
 				31C1337919508B830063F177 /* UIKit.framework in Frameworks */,
 				31C1337519508B830063F177 /* Foundation.framework in Frameworks */,
@@ -77,6 +93,14 @@
 		31C1336819508B820063F177 = {
 			isa = PBXGroup;
 			children = (
+				31C133AA19509F7C0063F177 /* SFTActivityViewController.h */,
+				31C133AB19509F7D0063F177 /* SFTActivityViewController.m */,
+				31C133AC19509F7D0063F177 /* SFTActivityViewController.xib */,
+				31C133A519508EED0063F177 /* SFTPostViewController.h */,
+				31C133A619508EED0063F177 /* SFTPostViewController.m */,
+				31C133A719508EED0063F177 /* SFTPostViewController.xib */,
+				31C1338319508B830063F177 /* SFTAppDelegate.h */,
+				31C1338419508B830063F177 /* SFTAppDelegate.m */,
 				31C1337A19508B830063F177 /* SocialFrameworkTest */,
 				31C1339319508B830063F177 /* SocialFrameworkTestTests */,
 				31C1337319508B830063F177 /* Frameworks */,
@@ -96,6 +120,8 @@
 		31C1337319508B830063F177 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31C133AF1950A6ED0063F177 /* MessageUI.framework */,
+				31C133A319508E720063F177 /* Social.framework */,
 				31C1337419508B830063F177 /* Foundation.framework */,
 				31C1337619508B830063F177 /* CoreGraphics.framework */,
 				31C1337819508B830063F177 /* UIKit.framework */,
@@ -107,8 +133,6 @@
 		31C1337A19508B830063F177 /* SocialFrameworkTest */ = {
 			isa = PBXGroup;
 			children = (
-				31C1338319508B830063F177 /* SFTAppDelegate.h */,
-				31C1338419508B830063F177 /* SFTAppDelegate.m */,
 				31C1338619508B830063F177 /* Images.xcassets */,
 				31C1337B19508B830063F177 /* Supporting Files */,
 			);
@@ -222,6 +246,8 @@
 			files = (
 				31C1337F19508B830063F177 /* InfoPlist.strings in Resources */,
 				31C1338719508B830063F177 /* Images.xcassets in Resources */,
+				31C133A919508EED0063F177 /* SFTPostViewController.xib in Resources */,
+				31C133AE19509F7D0063F177 /* SFTActivityViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +268,8 @@
 			files = (
 				31C1338519508B830063F177 /* SFTAppDelegate.m in Sources */,
 				31C1338119508B830063F177 /* main.m in Sources */,
+				31C133A819508EED0063F177 /* SFTPostViewController.m in Sources */,
+				31C133AD19509F7D0063F177 /* SFTActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

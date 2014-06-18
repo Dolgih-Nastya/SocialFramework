@@ -7,6 +7,8 @@
 //
 
 #import "SFTAppDelegate.h"
+#import "SFTPostViewController.h"
+#import "SFTActivityViewController.h"
 
 @implementation SFTAppDelegate
 
@@ -15,6 +17,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [SFTPostViewController new];
     [self.window makeKeyAndVisible];
     return YES;
 }
